@@ -9,7 +9,7 @@ size = Vector2(128, 128)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s3dh6"]
 size = Vector2(384, 384)
 
-[node name="Entity" type="Node2D"]
+[node name="Entity" type="Node2D" groups=["Entity"]]
 script = ExtResource("1_1lalh")
 
 [node name="Area2D" type="Area2D" parent="."]

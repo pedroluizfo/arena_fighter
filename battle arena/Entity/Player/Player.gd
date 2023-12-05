@@ -31,6 +31,8 @@ func action(type:String,amount:int,other_entity:Object):
 			defense = amount;
 		'Move':
 			pass
+		'FindCover':
+			pass
 
 func _on_button_pressed():
 	if get_parent().target != null:

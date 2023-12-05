@@ -19,6 +19,8 @@ func action(type:String,amount:int,other_entity:Object):
 			other_entity.life += amount;
 		'Defense':
 			defense = amount;
+		'Move':
+			
 
 func _on_area_2d_input_event(viewport, event, shape_idx):
 	if Input.is_action_just_pressed("LMB"):

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://co2328xe8ng6h"]
+
+[ext_resource type="Script" path="res://testing/turnqueuecreationtesting/somescene.gd" id="1_hi63g"]
+[ext_resource type="PackedScene" uid="uid://xkum8std5o1k" path="res://Entity/Entity.tscn" id="2_ddtls"]
+
+[node name="Somescene" type="Node2D"]
+script = ExtResource("1_hi63g")
+
+[node name="Entity" parent="." instance=ExtResource("2_ddtls")]
+
+[node name="Entity2" parent="." instance=ExtResource("2_ddtls")]
+
+[node name="Entity3" parent="." instance=ExtResource("2_ddtls")]
+
+[node name="Entity4" parent="." instance=ExtResource("2_ddtls")]
+position = Vector2(592, 528)
+
+[node name="Entity5" parent="." instance=ExtResource("2_ddtls")]
+position = Vector2(208, 440)
+
+[node name="Entity6" parent="." instance=ExtResource("2_ddtls")]
+position = Vector2(352, 168)
