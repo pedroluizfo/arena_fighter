@@ -26,9 +26,10 @@ func organizeandtest(allentity: Array):
 func turngo(allentity):
 	#INFO -> this guy, when called, will force the actual_entity to act and increase it. 
 	#await( allentity[actual_entity].activate(), "done" ) #FIXME
-	actual_entity += 1
 	if actual_entity > (allentity.size() - 1):
 		actual_entity = 0
+	for i in allentity.size():
+		allentity[i].activate()
 
 # Called when the node enters the scene tree for the first time.
 
