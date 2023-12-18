@@ -1,7 +1,9 @@
 extends Node2D
 
 var global = GlobalScript
+@onready var UI = get_parent().get_parent().get_node("Fight_UI")
 
+var max_life = 100.0
 var Position = Vector2();
 var life = 0.0;
 var stamina = 0.0;
@@ -10,8 +12,9 @@ var defense = 0.0
 var weapon
 var armour
 var enemy
-var damage = 10
-var areas_inside = []
+
+var amounts = [10,5,5]
+var effect_type = 0
 
 func _ready():
 	life = global.player_life
@@ -19,30 +22,24 @@ func _ready():
 	stamina = global.player_stamina
 	stamina = stamina*weight
 
-func action(type:String,amount:int,other_entity:Object):
-	match type:
-		'Attack':
-			other_entity.life -= amount;
+func action(other_entity:Object,effect:int):
+	effect_type = effect
+	match effect:
+		0:
+			other_entity.life -= amounts[effect_type];
 			if other_entity.life <= 0:
 				other_entity.queue_free()
-		'Heal':
-			other_entity.life += amount;
-		'Defense':
-			defense = amount;
-		'Move':
+		1:
+			if life != max_life:
+				if (life + amounts[effect_type] < max_life):
+					other_entity.life += amounts[effect_type];
+				else:
+					life = max_life
+		2:
+			defense = amounts[effect_type];
+		3:
 			pass
-		'FindCover':
-			pass
+	UI.pass_turn()
 
 func _on_button_pressed():
-	if get_parent().target != null:
-		action('Attack',damage,get_parent().get_node("Entity"))
-		print(get_parent().get_node("Entity").life)
-
-func _on_area_2d_2_area_entered(area):
-	if area.is_in_group("Enemy"):
-		areas_inside.push_back(area)
-
-func _on_area_2d_2_area_exited(area):
-	if area.is_in_group("Enemy"):
-		areas_inside.remove_at(areas_inside.find(area))
+	UI.use_action($'.')

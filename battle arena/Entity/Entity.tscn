@@ -1,28 +1,22 @@
-[gd_scene load_steps=5 format=3 uid="uid://xkum8std5o1k"]
+[gd_scene load_steps=3 format=3 uid="uid://xkum8std5o1k"]
 
 [ext_resource type="Script" path="res://Entity/Entity.gd" id="1_1lalh"]
-[ext_resource type="Texture2D" uid="uid://m5x4tmis61gh" path="res://icon.svg" id="1_fhklu"]
+[ext_resource type="Texture2D" uid="uid://dv75b5cjqm8qo" path="res://Assets/imagem_2023-12-18_160340396-removebg-preview.png" id="2_depig"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_8yixg"]
-size = Vector2(128, 128)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_s3dh6"]
-size = Vector2(384, 384)
-
-[node name="Entity" type="Node2D" groups=["Entity"]]
+[node name="Entity" type="Node2D" groups=["Enemy"]]
 script = ExtResource("1_1lalh")
 
-[node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("RectangleShape2D_8yixg")
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_fhklu")
+position = Vector2(-4, -1.90735e-06)
+scale = Vector2(0.140575, 0.249221)
+texture = ExtResource("2_depig")
 
-[node name="Area2D2" type="Area2D" parent="."]
+[node name="Button" type="Button" parent="."]
+visible = false
+offset_left = -40.0
+offset_top = -88.0
+offset_right = 33.0
+offset_bottom = -57.0
+text = "aaaaaaa"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-shape = SubResource("RectangleShape2D_s3dh6")
-
-[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

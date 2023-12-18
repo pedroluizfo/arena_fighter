@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cbiqc7dusp84m"]
+
+[ext_resource type="PackedScene" uid="uid://xkum8std5o1k" path="res://Entity/Entity.tscn" id="1_h4jdf"]
+[ext_resource type="Texture2D" uid="uid://4wem74ud0mhu" path="res://Assets/desolate-times-479026.png" id="2_5lbus"]
+[ext_resource type="PackedScene" uid="uid://bhqne5ilsv34k" path="res://Entity/Player/player.tscn" id="2_f2beg"]
+[ext_resource type="PackedScene" uid="uid://dgvkhwedle8ax" path="res://UI/Fight_UI.tscn" id="4_8wwuh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Desolate-times-479026" type="Sprite2D" parent="."]
+position = Vector2(400, 344)
+scale = Vector2(0.416667, 0.637037)
+texture = ExtResource("2_5lbus")
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Entity" parent="Enemies" instance=ExtResource("1_h4jdf")]
+position = Vector2(680, 648)
+
+[node name="Players" type="Node2D" parent="."]
+
+[node name="Player" parent="Players" instance=ExtResource("2_f2beg")]
+position = Vector2(192, 640)
+
+[node name="Fight_UI" parent="." instance=ExtResource("4_8wwuh")]

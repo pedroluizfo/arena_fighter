@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Map/Map.gd" id="1_nhq84"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wdw4b"]
-size = Vector2(128, 128)
+size = Vector2(80, 80)
 
 [node name="Map" type="Node2D"]
 script = ExtResource("1_nhq84")
@@ -14,113 +14,1542 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="Control"]
-layout_mode = 0
-offset_right = 128.0
-offset_bottom = 128.0
+layout_mode = 1
+anchors_preset = -1
+offset_right = 80.0
+offset_bottom = 80.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect6" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_left = 256.0
-offset_right = 384.0
-offset_bottom = 128.0
+offset_left = 160.0
+offset_right = 240.0
+offset_bottom = 80.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect7" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_left = 128.0
-offset_top = 128.0
-offset_right = 256.0
-offset_bottom = 256.0
+offset_left = 320.0
+offset_right = 400.0
+offset_bottom = 80.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect8" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_top = 256.0
-offset_right = 128.0
-offset_bottom = 384.0
+offset_left = 480.0
+offset_right = 560.0
+offset_bottom = 80.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect9" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_left = 256.0
-offset_top = 256.0
-offset_right = 384.0
-offset_bottom = 384.0
+offset_left = 640.0
+offset_right = 720.0
+offset_bottom = 80.0
 mouse_filter = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect2" type="ColorRect" parent="Control"]
-layout_mode = 0
-offset_left = 128.0
-offset_right = 256.0
-offset_bottom = 128.0
+layout_mode = 1
+anchors_preset = -1
+offset_left = 80.0
+offset_right = 160.0
+offset_bottom = 80.0
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect3" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_top = 128.0
-offset_right = 128.0
-offset_bottom = 256.0
+offset_left = 240.0
+offset_right = 320.0
+offset_bottom = 80.0
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect4" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_left = 256.0
-offset_top = 128.0
-offset_right = 384.0
-offset_bottom = 256.0
+offset_left = 400.0
+offset_right = 480.0
+offset_bottom = 80.0
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect5" type="ColorRect" parent="Control"]
 layout_mode = 0
-offset_left = 128.0
-offset_top = 256.0
-offset_right = 256.0
-offset_bottom = 384.0
+offset_left = 560.0
+offset_right = 640.0
+offset_bottom = 80.0
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect10" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 720.0
+offset_right = 800.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect11" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 720.0
+offset_top = 80.0
+offset_right = 800.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect12" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect13" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect14" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect15" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect16" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect17" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 80.0
+offset_right = 240.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect18" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect19" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect20" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = 640.0
+offset_top = 80.0
+offset_right = 720.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect21" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_right = 80.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect22" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 160.0
+offset_right = 240.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect23" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 320.0
+offset_right = 400.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect24" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 480.0
+offset_right = 560.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect25" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 640.0
+offset_right = 720.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect26" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 80.0
+offset_right = 160.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect27" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 240.0
+offset_right = 320.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect28" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 400.0
+offset_right = 480.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect29" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 560.0
+offset_right = 640.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect30" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 720.0
+offset_right = 800.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect31" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 720.0
+offset_top = 80.0
+offset_right = 800.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect32" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect33" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect34" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect35" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 560.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect36" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect37" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 160.0
+offset_top = 80.0
+offset_right = 240.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect38" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect39" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect40" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 4.0
+anchor_bottom = 4.0
+offset_left = 640.0
+offset_top = 80.0
+offset_right = 720.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect41" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_right = 80.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect42" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 160.0
+offset_right = 240.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect43" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 320.0
+offset_right = 400.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect44" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 480.0
+offset_right = 560.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect45" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 640.0
+offset_right = 720.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect46" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 80.0
+offset_right = 160.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect47" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 240.0
+offset_right = 320.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect48" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 400.0
+offset_right = 480.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect49" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 560.0
+offset_right = 640.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect50" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 720.0
+offset_right = 800.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect51" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 720.0
+offset_top = 80.0
+offset_right = 800.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect52" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect53" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect54" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect55" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 560.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect56" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect57" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 160.0
+offset_top = 80.0
+offset_right = 240.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect58" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect59" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect60" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 8.0
+anchor_bottom = 8.0
+offset_left = 640.0
+offset_top = 80.0
+offset_right = 720.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect61" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_right = 80.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect62" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 160.0
+offset_right = 240.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect63" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 320.0
+offset_right = 400.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect64" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 480.0
+offset_right = 560.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect65" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 640.0
+offset_right = 720.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect66" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 80.0
+offset_right = 160.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect67" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 240.0
+offset_right = 320.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect68" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 400.0
+offset_right = 480.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect69" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 560.0
+offset_right = 640.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect70" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 720.0
+offset_right = 800.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect71" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 720.0
+offset_top = 80.0
+offset_right = 800.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect72" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect73" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect74" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect75" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 560.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect76" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect77" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 160.0
+offset_top = 80.0
+offset_right = 240.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect78" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect79" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect80" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 12.0
+anchor_bottom = 12.0
+offset_left = 640.0
+offset_top = 80.0
+offset_right = 720.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect81" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_right = 80.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect82" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 160.0
+offset_right = 240.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect83" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 320.0
+offset_right = 400.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect84" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 480.0
+offset_right = 560.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect85" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 640.0
+offset_right = 720.0
+offset_bottom = 80.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect86" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 80.0
+offset_right = 160.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect87" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 240.0
+offset_right = 320.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect88" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 400.0
+offset_right = 480.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect89" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 560.0
+offset_right = 640.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect90" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 720.0
+offset_right = 800.0
+offset_bottom = 80.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect91" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 720.0
+offset_top = 80.0
+offset_right = 800.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect92" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 80.0
+offset_top = 80.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect93" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 240.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect94" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 400.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect95" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 560.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 160.0
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect96" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect97" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 160.0
+offset_top = 80.0
+offset_right = 240.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect98" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect99" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 480.0
+offset_top = 80.0
+offset_right = 560.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect100" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 16.0
+anchor_bottom = 16.0
+offset_left = 640.0
+offset_top = 80.0
+offset_right = 720.0
+offset_bottom = 160.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(64, 64)
+position = Vector2(40, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(192, 64)
+position = Vector2(120, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(320, 64)
+position = Vector2(200, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(192, 192)
+position = Vector2(360, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(64, 192)
+position = Vector2(280, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(320, 192)
+position = Vector2(440, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(64, 320)
+position = Vector2(520, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(192, 320)
+position = Vector2(600, 40)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [node name="CollisionShape2D9" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(320, 320)
+position = Vector2(680, 40)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 40)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D18" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D19" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D20" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 120)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D21" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D22" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D23" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D24" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D25" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D26" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D27" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D28" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D29" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D30" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 200)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D31" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D32" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D33" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D34" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D35" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D36" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D37" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D38" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D39" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D40" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 280)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D41" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D42" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D43" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D44" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D45" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D46" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D47" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D48" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D49" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D50" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 360)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D51" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D52" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D53" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D54" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D55" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D56" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D57" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D58" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D59" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D60" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 440)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D61" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D62" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D63" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D64" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D65" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D66" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D67" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D68" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D69" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D70" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 520)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D71" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D72" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D73" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D74" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D75" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D76" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D77" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D78" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D79" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D80" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 600)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D81" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D82" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D83" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D84" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D85" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D86" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D87" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D88" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D89" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D90" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 680)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D91" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(40, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D92" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(120, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D93" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(200, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D94" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(360, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D95" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D96" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(440, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D97" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(520, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D98" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(600, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D99" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(680, 760)
+shape = SubResource("RectangleShape2D_wdw4b")
+
+[node name="CollisionShape2D100" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(760, 760)
 shape = SubResource("RectangleShape2D_wdw4b")
 
 [connection signal="input_event" from="Area2D" to="." method="_on_input_event"]
