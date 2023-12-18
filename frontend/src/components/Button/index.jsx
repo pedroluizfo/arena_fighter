@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const shapes = { round: "rounded-[5px]" };
-const variants = { fill: { indigo_300: "bg-indigo-300 text-white-A700_01" } };
+const variants = { fill: { indigo_300: "bg-indigo-300" } };
 const sizes = { xs: "px-2.5 py-[30px]" };
 
 const Button = ({
@@ -10,10 +10,10 @@ const Button = ({
   className = "",
   leftIcon,
   rightIcon,
-  shape = "round",
-  size = "xs",
-  variant = "fill",
-  color = "indigo_300",
+  shape = "",
+  size = "",
+  variant = "",
+  color = "",
   ...restProps
 }) => {
   return (
