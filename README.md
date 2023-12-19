@@ -2,7 +2,7 @@ vídeo explicativo:
 https://youtu.be/6zFd-Xrl9iw?si=v_rvb1iRI2mm2Jqn
 
 #
-não deixem de olhar a outra branch!
+não deixem de olhar a outra branch e o nosso live server localizado em:https://arena-fighter.vercel.app/
 
 ## Pre-requisites
 
