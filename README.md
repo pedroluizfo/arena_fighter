@@ -1,6 +1,9 @@
 vídeo explicativo:
 https://youtu.be/6zFd-Xrl9iw?si=v_rvb1iRI2mm2Jqn
 
+#
+não deixem de olhar a outra branch!
+
 ## Pre-requisites
 
 - [git](https://git-scm.com/) - v2.13 or greater
