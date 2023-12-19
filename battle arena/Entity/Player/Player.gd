@@ -23,9 +23,9 @@ func _ready():
 	stamina = stamina*weight
 
 func action(other_entity:Object,effect:int):
-	effect_type = effect
+	effect_type = effect #this is the action type. More actions seems to be easily expandable!
 	match effect:
-		0:
+		0: #looks like some kind of attack
 			other_entity.life -= amounts[effect_type];
 			if other_entity.life <= 0:
 				other_entity.queue_free()
@@ -37,7 +37,7 @@ func action(other_entity:Object,effect:int):
 					life = max_life
 		2:
 			defense = amounts[effect_type];
-		3:
+		3: #???
 			pass
 	UI.pass_turn()
 

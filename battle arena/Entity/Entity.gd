@@ -10,30 +10,40 @@ var defense = 0.0
 var weapon
 var armour
 
-var action_type = [10,5]
+var action_type = [10, 5]
 var action_use = 0
 
-func _ready():
-	stamina = stamina*weight
+var pontuation = 0
 
+func save():
+	var save_dict = {
+		"filename": get_scene_file_path(),
+		"parent": get_parent().get_path(),
+		"pontuation": pontuation  # Include pontuation in the saved data
+	}
+	return save_dict
+
+func _ready():
+	stamina = stamina * weight
 
 func use_action():
 	randomize()
-	action_use = int(randf_range(0,2))
+	action_use = int(randf_range(0, 2))
 	if action_use == 2:
 		action_use = 1
 	if action_use == 1:
-		action(action_use,$'.')
+		action(action_use, $'.')
 	else:
-		action(action_use,player)
-	
+		action(action_use, player)
 
-func action(type:int,other_entity:Object):
+func action(type: int, other_entity: Object):
 	match type:
 		0:
-			other_entity.life -= action_type[action_use];
+			other_entity.life -= action_type[action_use]
 			if other_entity.life <= 0:
 				other_entity.queue_free()
+				pontuation += 1  # Increase pontuation when entity's life is <= 0
+				save()  # Save pontuation when entity's life is <= 0
 			print(other_entity.life)
 		1:
 			other_entity.life += action_type[action_use]

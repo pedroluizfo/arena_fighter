@@ -9,7 +9,7 @@ var actual_action = 0
 var turn = []
 var actual_turn = 0
 
-func _ready():
+func _ready(): #
 	for player in players.get_child_count():
 		turn.push_back(players.get_child(player))
 	for enemy in enemies.get_child_count():
@@ -56,3 +56,14 @@ func alternate_enemy():
 
 func use_action(target:Object):
 	turn[actual_turn].action(target,actual_action)
+
+@onready var goverflag = 0
+
+func gameover():
+	print("gameover!")
+	
+func _process(delta):
+		
+	if get_parent().get_node("Players").get_child_count() == 0 and goverflag == 0:
+		gameover()
+		goverflag = 1
